@@ -1,4 +1,4 @@
-var wordBank = ["goku", "gutts", "inuyasha"];
+var wordBank = ["goku", "gutts", "inuyasha", "alucard", "vash", "dante", "mugen"];
 var guessWord = document.getElementById("guessWord");
 var guessNum = document.getElementById("guessNum");
 var wrongGuess = document.getElementById("wrongGuess");
@@ -39,11 +39,20 @@ function wordCheck() {
 
 }
 
+function show_image(src, width, height) {
+    var img = document.createElement("img");
+    img.src = src;
+    img.width = width;
+    img.height = height;
+    document.body.appendChild(img);
+}
+
 document.onkeyup = function (event) {
     if (guessWord.textContent == "") {
         generateWord();
     }
-    else {
+    else
+    {
         wordCheck();
     }
 }

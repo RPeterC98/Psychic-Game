@@ -1,0 +1,29 @@
+h1,
+#st
+{
+    margin: 0;
+    font-size: 35px;
+    text-align: center;
+    background-color: black;
+    width: 100%;
+    color: red;
+}
+h3
+{
+    background-color: rebeccapurple;
+    color: aquamarine;
+    margin-right: 75%;
+}
+body
+{
+    background-image: url("../images/background.jpg");
+}
+p
+{
+    font-size: 24px;
+    color:white;
+}
+#st
+{
+    font-size: 20px;
+}
